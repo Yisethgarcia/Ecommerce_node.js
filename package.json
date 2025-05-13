@@ -1,0 +1,16 @@
+{
+  "name": "ecommercenode",
+  "version": "1.0.0",
+  "description": "Actividad de nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "create": "node --env-file=.env collections/init.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yiseth",
+  "license": "ISC",
+  "devDependencies": {
+    "mongodb": "^6.16.0"
+  }
+}
